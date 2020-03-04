@@ -1,21 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// packs de ejecucion
 package entrenamiento;
 
-/**
- *
- * @author Estudiantes
- */
+import java.util.Scanner;
+
 public class Entrenamiento {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+       //codigo a ejecutar
+       Scanner datos;
+       int s=7, b =2;
+       datos = new Scanner(System.in);
+       System.out.println("digite el primer numero: ");
+       s = datos.nextInt();
+       System.out.println("digite el segundo numero: ");
+       b = datos.nextInt();
+       System.out.println("respuesta: "+(s+b));
     }
     
 }
