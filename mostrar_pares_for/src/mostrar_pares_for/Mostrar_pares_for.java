@@ -15,11 +15,11 @@ public class Mostrar_pares_for {
         for(i=1; i<=30;i++){
             if(i%2==0)
             pares++;
-            System.out.print(i);
+            System.out.println(i);
                  
             
         }
-       System.out.print("la cantidad de pares es:" +pares); 
+       System.out.println("la cantidad de pares es:" +pares); 
     }
     
 }
